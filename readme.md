@@ -5,9 +5,9 @@
 * [✅] Write function that changes screen
 * [✅] Create several elements that invoke previous function with element info when clicked 
 * [✅] Pass element value into screen when element is clicked
-* [✅] Make calculator be able to do multiple functions
+* [✅] Make calculator do multiple functions
 * [✅] Make decimal number only show up once
-* [✅] Need to get the commas into the value once the digits get to four and above
+* [✅] Get the commas into the value once the digits get to four and above
 * [✅] Make +/- button work
 
 
