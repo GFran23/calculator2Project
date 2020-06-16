@@ -78,12 +78,3 @@ body{
 }
 
 
-// Edge Cases to Troubleshoot //
-// 1: When doing mult or anything else can't immediately do another action afterwards
-// 2: Need to make the functions not show up on the screen when pressed. I.E *,-,%, etc etc
-// 3: Need to get the commas into the value once the digits get to four and above
-// 4: Need to make the Equal button keep doing the operation instead of reseting to Zero
-// 5: Need to make the decimal only show up once when pressed and also make the Zero stay
-// 6: Need to make the screen only show the number thats on the screen once it maxes out
-// 7: Need to find a different function to use instead of the Eval Function
-// 8: Need to make the +/- button work more efficiently makes a number either a negative or a postive
