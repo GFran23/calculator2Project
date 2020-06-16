@@ -64,7 +64,7 @@
 }
 
 .calculator_buttons:hover{
-    box-shadow: 2px 2px 1px 1px lavender;
+    box-shadow: 2px 2px 1px 1px grey;
     border: 5px solid whitesmoke; 
     color: gold;
 
