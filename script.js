@@ -74,3 +74,5 @@ function numberWithCommas(x) { // Created a function to add commas
     return parts.join("."); // join() converts array into string by concatenating all elements together on a given character
 }
 
+
+
