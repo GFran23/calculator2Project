@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator_container{
+    width: 500px;
+    height: 675px;
+    border: 1px solid black;
+    opacity: 40%;
+    border-radius: 25px;
+}
+
+.calculator_screen{
+    width: 90%;
+    height: 15%;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    color: black;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    
+    
+}
+
+.calculator_buttons-container{
+    width: 90%;
+    height: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.calculator_buttons{
+    display: flex;
+    width: 105px;
+    height: 95px;
+    border: 1px solid ghostwhite;
+    background-color: black;
+    color: cornsilk;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: x-large;
+    margin: 2px;
+    
+    
+
+}
+
+.button-double1{
+    font-size: 40px;
+}
+
+.button-double2{
+    width: 210px;
+}
+
+.calculator_buttons:hover{
+    box-shadow: 2px 2px 1px 1px lavender;
+    border: 5px solid whitesmoke; 
+    color: gold;
+
+}
+
+body{
+    background-image: url(https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/03/640/320/elephant-walk.jpg?ve=1&tl=1);
+    background-repeat: no-repeat; 
+    background-size: 2000px 1350px; 
+    background-position: center;
+}
+
+
+// Edge Cases to Troubleshoot //
+// 1: When doing mult or anything else can't immediately do another action afterwards
+// 2: Need to make the functions not show up on the screen when pressed. I.E *,-,%, etc etc
+// 3: Need to get the commas into the value once the digits get to four and above
+// 4: Need to make the Equal button keep doing the operation instead of reseting to Zero
+// 5: Need to make the decimal only show up once when pressed and also make the Zero stay
+// 6: Need to make the screen only show the number thats on the screen once it maxes out
+// 7: Need to find a different function to use instead of the Eval Function
+// 8: Need to make the +/- button work more efficiently makes a number either a negative or a postive
