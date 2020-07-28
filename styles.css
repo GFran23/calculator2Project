@@ -6,8 +6,9 @@
     width: 500px;
     height: 675px;
     border: 1px solid black;
-    opacity: 40%;
+    opacity: 60%;
     border-radius: 25px;
+    background-color: black;
 }
 
 .calculator_screen{
@@ -67,6 +68,7 @@
     box-shadow: 2px 2px 1px 1px grey;
     border: 5px solid whitesmoke; 
     color: gold;
+    cursor: pointer;
 
 }
 
@@ -76,5 +78,11 @@ body{
     background-size: 2000px 1350px; 
     background-position: center;
 }
+.calculator_container:hover{
+    box-shadow: 2px 2px 1px 1px grey;
+    border: 5px solid whitesmoke; 
+    color: gold;
+    cursor: pointer;
 
+}
 

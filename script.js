@@ -73,6 +73,3 @@ function numberWithCommas(x) { // Created a function to add commas
     parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ","); // replace() replaces the first occurence of a character with another character used a Regular Expression
     return parts.join("."); // join() converts array into string by concatenating all elements together on a given character
 }
-
-
-
